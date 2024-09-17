@@ -160,7 +160,6 @@ function ScreenController() {
                 board.removeEventListener("click", playRound);
                 paintBoard(gameStatus);
                 removeCurrentPlayerClass();
-                alert(gameStatus);
                 if (gameStatus === -1) {
                     alert("Tie!");
                 } else {
