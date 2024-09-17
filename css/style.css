@@ -65,7 +65,8 @@ header {
 .board {
     display: grid;
     width: 450px;
-    height: 450px;
+    max-width: 90vw;
+    aspect-ratio: 1 / 1;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(3, 1fr);
     background-color: rgba(255, 255, 255, 1);
