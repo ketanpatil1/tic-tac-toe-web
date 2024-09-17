@@ -16,6 +16,8 @@ header {
     background-color: #1a1b26;
     color: #eeeeee;
     text-align: center;
+    font-size: 32px;
+    padding: 12px;
 }
 
 .main {
